@@ -1,6 +1,6 @@
-package com.crompsys.sorting;
+package com.crompsys.sorting_algos;
 
-class CountingSort{
+class MergeSort{
 	
 public static int[] sort(int[] arr , int n ) {
 	System.out.println("sortrd");
@@ -20,14 +20,12 @@ public static int[] sort(int[] arr , int n ) {
 	return b;
 }	
 }
-
-public class CountingSortTest {
+public class MergeSortTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int arr[]={1,2,2,2,2,3,6,8,5,3,8,50,1,2,4,5,7,22,3,4,55,3,21,23,43,46,27};
-		CountingSort.sort(arr, 56);
-
+		MergeSort.sort(arr, 56);
 	}
 
 }
